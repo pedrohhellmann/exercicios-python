@@ -1,4 +1,6 @@
-raio = float(input("Digite o raio do circulo: ")) 
+num1 = int (input("Digite o primeiro número: "))
+num2 = int (input("Digite o segundo número: "))
 
-area = 3.14159 * raio ** 2 
-print("a área do circulo é:", area) 
+soma = num1 + num2
+print("A soma dos dois números é:", soma)
+
