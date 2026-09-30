@@ -1,8 +1,6 @@
 num1 = int(input("Digite o primeiro número: "))
-
-if num1 > 0:
-    print("O número é positivo.")
-elif num1 < 0:
-    print("O número é negativo.")  
+num2 = int(input("Digite o segundo número: "))
+if num1 > num2:
+    print(f"O número {num1} é maior que {num2}.")
 else:
-    print("O número é zero.")
+    print(f"Os números são iguais.")
